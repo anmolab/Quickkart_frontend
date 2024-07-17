@@ -6,6 +6,8 @@ import RelatedProduct from "./RelatedProduct";
 const ProductDetail = () => {
   const [product, setProduct] = useState();
   const { id } = useParams();
+  
+  //const url = "http://localhost:1000/api";
   const url = "https://quickkart-api.onrender.com/api";
 
   useEffect(() => {
