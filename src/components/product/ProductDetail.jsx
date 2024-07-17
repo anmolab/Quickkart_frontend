@@ -45,8 +45,7 @@ const ProductDetail = () => {
           <h1>{product?.title}</h1>
           <p>{product?.description}</p>
           <h1>
-            {product?.price}{" "}
-            {"₹"}
+            {"₹"}{" "}{product?.price}
           </h1>
           {/* <h3>{product.category}</h3> */}
           <div className="my-5">
