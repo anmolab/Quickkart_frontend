@@ -38,7 +38,7 @@ const ProductDetail = () => {
           <img
             src={product?.imgSrc}
             alt=""
-            style={{ width: "400px", height: "200px",borderRadius:'10px',border:"2px solid yellow" }}
+            style={{ width: "200px", height: "200px",borderRadius:'10px',border:"2px solid yellow" }}
           />
         </div>
         <div className="right">
