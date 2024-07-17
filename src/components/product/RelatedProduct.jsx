@@ -50,7 +50,7 @@ const RelatedProduct = ({ category }) => {
                     <h5 className="card-title">{product.title}</h5>
                     <div className="my-3">
                       <button className="btn btn-primary mx-3">
-                        {product.price} {"₹"}
+                        {"₹"} {product.price} 
                       </button>
                       <button className="btn btn-warning">Add To Cart</button>
                     </div>
